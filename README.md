@@ -47,3 +47,12 @@ Abrir `http://localhost:5173`
 cd backend
 pytest tests/ -v
 ```
+
+## Despliegue en Vercel
+
+1. Conecta el repo en [vercel.com](https://vercel.com)
+2. En Settings → Framework Preset, selecciona **Vite** (importante: no dejar "services")
+3. Root Directory: `./`
+4. Vercel usa `vercel.json` automaticamente
+
+El frontend queda servido en la raiz y la API en `/api/*` como funciones serverless Python.
