@@ -1,0 +1,24 @@
+{
+  "name": "sistema-costeo-abc",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:backend": "uvicorn backend.main:app --reload --port 8000",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:all": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "test:backend": "pytest backend/tests/",
+    "test:frontend": "npm --prefix frontend test",
+    "test:all": "npm run test:backend && npm run test:frontend",
+    "install:backend": "pip install -r backend/requirements.txt",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "lint:backend": "flake8 backend/",
+    "lint:frontend": "npm --prefix frontend run lint",
+    "format:backend": "black backend/",
+    "format:frontend": "npm --prefix frontend run format",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

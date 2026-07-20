@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "781bd6d3f9b19f8c9af6b53d8d0e4876d0183841b565db34ca7092ffa412d111"
+    },
+    "fastapi-python": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "skills/fastapi-python",
+      "installs": 11300
+    },
+    "vitest": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vitest",
+      "installs": 1400
+    },
+    "pytest": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/pytest",
+      "installs": 1100
+    },
+    "react": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/react",
+      "installs": 10000
+    },
+    "storybook-stories": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-stories",
+      "installs": 5000
+    },
+    "eslint-prettier-config": {
+      "source": "patricio0312rev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/eslint-prettier-config",
+      "installs": 881
+    },
+    "devops-engineer": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/devops-engineer",
+      "installs": 206
+    }
+  }
+}
